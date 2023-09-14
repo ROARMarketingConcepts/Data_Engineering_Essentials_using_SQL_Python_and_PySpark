@@ -1,0 +1,11 @@
+name: sql-exercises-DE-course
+channels:  
+- defaults  
+dependencies:  
+- python  
+- notebook
+- pandas
+- pip:
+  - psycopg2-binary
+  - python-dotenv
+  - SQLAlchemy<2.0.0
